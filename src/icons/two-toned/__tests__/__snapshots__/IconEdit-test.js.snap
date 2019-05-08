@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`icons/general/IconEdit should correctly render default icon 1`] = `
+<AccessibleSVG
+  className="bdl-IconEdit "
+  height={24}
+  viewBox="0 0 32 32"
+  width={24}
+>
+  <circle
+    className="background-color"
+    cx="16"
+    cy="16"
+    fill="#0061d5"
+    r="16"
+  />
+  <g
+    className="foreground-color"
+    fill="#fff"
+    transform="translate(9.000000, 9.000000)"
+  >
+    <path
+      d="M2.55318931,8.10044342 L10.0254604,0.698424385 C10.9120573,-0.210024968 12.3753683,-0.235595915 13.2938572,0.641310075 C14.212346,1.51821607 14.2381995,2.96553255 13.3516027,3.87398194 L5.77538968,11.3331153 L2.55318931,8.10044342 Z M1.4329261,9.36838187 L4.70132289,12.6010538 L0.774627105,13.9375294 C0.174073632,14.1431411 -0.13775221,13.8233007 0.0585825795,13.2407344 L1.4329261,9.36838187 Z"
+    />
+  </g>
+</AccessibleSVG>
+`;
