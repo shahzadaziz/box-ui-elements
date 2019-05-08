@@ -38,6 +38,29 @@ const icons = [
         },
     },
     {
+        name: 'IconEdit',
+        content: () => {
+            const IconEdit = require('./IconEdit').default;
+            return (
+                <div>
+                    <style>
+                        {`
+                            .icon-edit-example .foreground-color {
+                                fill: #ffffff;
+                            }
+
+                            .icon-edit-example .background-color {
+                                fill: #999;
+                            }
+                        `}
+                    </style>
+                    <IconEdit />
+                    <IconEdit className="icon-edit-example" />
+                </div>
+            );
+        },
+    },
+    {
         name: 'IconExclamationMark',
         content: () => {
             const IconExclamationMark = require('./IconExclamationMark').default;
